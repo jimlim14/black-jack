@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(6, 83, 6);
+}
+
+h1 {
+    color:#e7e7e7e5;
+}
+
+a {
+    color: white;
+    position: absolute;
+    right: 50px;
+    font-size: 28px;
+    border: none;
+    border-style: solid;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+
+#scoreboard {
+    text-align: center;
+    padding-top: 200px;
+}
+
+.game {
+    text-align: center;
+}
+
+#black-jack {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#computer {
+    text-align: center;
+    height: 300px;
+    display: flex;
+    float: inline-start;
+}
+
+button {
+    background-color: #e7e7e7;
+    border: none;
+    padding: 20px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* .hit-btn, .stand-btn {
+    visibility: hidden;
+} */
+
+#deck {
+    height: 93px;
+    padding-left: 30px;
+    float: inline-start
+}
+
+.computer-card-1, .computer-card-2, .computer-card-3, .computer-card-4, .computer-card-5, .computer-card-6, .computer-card-7, .computer-card-8 {
+    text-align: center;
+    float: left; 
+    width: 200px;
+    visibility: hidden;
+}
+
+.player-card-1, .player-card-2, .player-card-3, .player-card-4, .player-card-5, .player-card-6, .player-card-7, .player-card-8 {
+    text-align: center;
+    float: left; 
+    width: 200px;
+}
+
+.card-image-1, .card-image-2, .card-image-3, .card-image-4, .card-image-5, .card-image-6, .card-image-7, .card-image-8 {
+    width: 189px;
+    height: 270px;
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.invisible {
+    visibility: hidden;
+}
